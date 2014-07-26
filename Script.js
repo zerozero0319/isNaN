@@ -14,6 +14,9 @@ function checkNum() {
     } else if (v == 114514) {
     //E  M  U  R  A  T  E  D
         r.textContent = "いいよ！来いよ！";
+    } else if (v == 893) {
+    //迫真
+        r.textContent = "ンギモチイィッ！";
     } else if (isNaN(v)) {
     //VIRTUAL SEX
         r.textContent = "("+ v + "は数字じゃ)ないです。";
@@ -23,7 +26,7 @@ function checkNum() {
     } else if (v % 2 != 0) {
     //1919
         r.textContent = v + "は奇数だよ";
-    }
+    } 
     //お前のことが好きだったんだよ！（迫真）
     alert("やめちゃうの？怒ってんの？（棒読み）");
     //二人は幸せなキスをして終了
